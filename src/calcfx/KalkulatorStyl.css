@@ -1,0 +1,41 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.window {
+	-fx-background-color: #ccc9ba;
+	-fx-border-color: gray;
+	-fx-border-radius: 2px;
+}
+.digit {
+	-fx-font-size: 30.0;
+	-fx-pref-width: 100.0;
+	-fx-pref-height: 100.0;
+
+	}
+.result {
+	-fx-padding: 10.0px;
+	-fx-border-color: black;
+	-fx-background-color: #222426;
+	-fx-text-fill: #018a26;
+}
+.topDigits {
+	-fx-background-color: #038c4a;
+	-fx-pref-width: 100.0;
+	-fx-pref-height: 100.0;
+	-fx-font-size: 22px;
+	-fx-alignment: center ;
+}
+.topDigits:hover {
+		-fx-background-color: #11ad62;
+}
+.rightDigits {
+	-fx-pref-width: 100.0;
+	-fx-pref-height: 100.0;
+	-fx-background-color: darkorange;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size: 27.0;
+	-fx-alignment: center ;
+}
+.rightDigits:hover {
+	-fx-background-color: orange;
+}
